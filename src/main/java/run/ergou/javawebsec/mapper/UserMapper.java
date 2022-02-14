@@ -1,6 +1,7 @@
 package run.ergou.javawebsec.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.apache.ibatis.annotations.Mapper;
 import run.ergou.javawebsec.entity.User;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
@@ -8,6 +9,7 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
+@Mapper
 @Repository
 public interface UserMapper extends BaseMapper<User> {
     @Select("SELECT * FROM users WHERE username = '${name}' AND password = '${passwd}'")

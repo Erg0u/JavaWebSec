@@ -14,7 +14,7 @@ import java.util.List;
 @Service
 public class SqlInjectService {
     private final String driver = "com.mysql.cj.jdbc.Driver";
-    private final String url = "jdbc:mysql://localhost:3306/java_sec_code?AllowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC";
+    private final String url = "jdbc:mysql://localhost:3306/JavaWebSec?useSSL=false&serverTimezone=UTC";
     private final String username = "root";
     private final String password = "root";
 

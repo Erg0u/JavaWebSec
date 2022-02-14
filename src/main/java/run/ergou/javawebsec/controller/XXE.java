@@ -1,6 +1,6 @@
 package run.ergou.javawebsec.controller;
 
-import com.example.javasec.entity.User;
+import run.ergou.javawebsec.entity.User;
 import org.apache.commons.digester3.Digester;
 import org.apache.commons.io.IOUtils;
 import org.dom4j.io.SAXReader;
